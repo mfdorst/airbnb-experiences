@@ -13,10 +13,7 @@ export default function Card() {
           <p class="rating">5.0 (6)-USA</p>
         </div>
         <p class="description-text">Lessons with Katie Zaferes</p>
-        <div class="price">
-          <p class="bold">From $136&nbsp;</p>
-          <p>/ person</p>
-        </div>
+        <p class="price"><span class="bold">From $136&nbsp;</span> / person</p>
       </div>
     </div>
   )
