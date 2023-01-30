@@ -1,0 +1,37 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 235px;
+}
+
+.description {
+    padding: 9px;
+    font-size: 12px;
+    line-height: 110%;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+}
+
+.star {
+    width: 14px;
+    height: 14px;
+    align-self: end;
+    padding: 0px 2px;
+}
+
+.description-text {
+    margin-bottom: 0px;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+}
+
+.bold {
+    font-weight: bold;
+}
