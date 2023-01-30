@@ -1,12 +1,15 @@
 .card {
-    margin: 37px;
-    max-width: 235px;
+    max-width: 176px;
     font-size: 12px;
     line-height: 110%;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
 }
 
 .card-image {
     width: 100%;
+    border-radius: 9px;
     margin-bottom: 9px;
 }
 
