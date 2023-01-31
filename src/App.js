@@ -6,8 +6,9 @@ import data from './data'
 
 function App() {
   const cards =
-    data.map(({coverImg, stats: {rating, reviewCount}, location, title, price}) =>
+    data.map(({id, coverImg, stats: {rating, reviewCount}, location, title, price}) =>
       <Card
+        key={id}
         img={coverImg}
         rating={rating}
         reviewCount={reviewCount}
@@ -20,7 +21,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <section class="cards">
+      <section className="cards">
         {cards}
       </section>
     </div>
