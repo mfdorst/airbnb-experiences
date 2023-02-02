@@ -6,16 +6,10 @@ import data from './data'
 
 function App() {
   const cards =
-    data.map(({id, coverImg, stats: {rating, reviewCount}, location, title, price, openSpots}) =>
+    data.map(experience =>
       <Card
-        key={id}
-        img={coverImg}
-        rating={rating}
-        reviewCount={reviewCount}
-        location={location}
-        title={title}
-        price={price}
-        openSpots={openSpots}
+        key={experience.id}
+        {...experience}
       />)
 
   return (
